@@ -7,4 +7,4 @@ Follows the google style guide for Objective-C:
 
 - Curly braces are of in-line style.
 - Optional spaces between the @property and the opening parenthesis have been removed.
-- 2 space indentation
+- 2 space indentation.
