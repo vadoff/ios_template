@@ -17,8 +17,6 @@
 		445E4BF316C0CA7F00049435 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 445E4BF216C0CA7F00049435 /* Default@2x.png */; };
 		445E4BF516C0CA7F00049435 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 445E4BF416C0CA7F00049435 /* Default-568h@2x.png */; };
 		445E4BF816C0CA7F00049435 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445E4BF716C0CA7F00049435 /* ViewController.m */; };
-		445E4BFB16C0CA7F00049435 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445E4BF916C0CA7F00049435 /* ViewController_iPhone.xib */; };
-		445E4BFE16C0CA7F00049435 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445E4BFC16C0CA7F00049435 /* ViewController_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +35,6 @@
 		445E4BF416C0CA7F00049435 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		445E4BF616C0CA7F00049435 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		445E4BF716C0CA7F00049435 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		445E4BFA16C0CA7F00049435 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		445E4BFD16C0CA7F00049435 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +85,6 @@
 				445E4BEE16C0CA7F00049435 /* AppDelegate.m */,
 				445E4BF616C0CA7F00049435 /* ViewController.h */,
 				445E4BF716C0CA7F00049435 /* ViewController.m */,
-				445E4BF916C0CA7F00049435 /* ViewController_iPhone.xib */,
-				445E4BFC16C0CA7F00049435 /* ViewController_iPad.xib */,
 				445E4BE516C0CA7F00049435 /* Supporting Files */,
 			);
 			path = template;
@@ -165,8 +159,6 @@
 				445E4BF116C0CA7F00049435 /* Default.png in Resources */,
 				445E4BF316C0CA7F00049435 /* Default@2x.png in Resources */,
 				445E4BF516C0CA7F00049435 /* Default-568h@2x.png in Resources */,
-				445E4BFB16C0CA7F00049435 /* ViewController_iPhone.xib in Resources */,
-				445E4BFE16C0CA7F00049435 /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,22 +184,6 @@
 				445E4BE816C0CA7F00049435 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		445E4BF916C0CA7F00049435 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				445E4BFA16C0CA7F00049435 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		445E4BFC16C0CA7F00049435 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				445E4BFD16C0CA7F00049435 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
